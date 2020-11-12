@@ -251,7 +251,7 @@ function _typeof(e) {
             try {
                 i(t, "ue_px") && (t.ue_px = JSON.parse(o.base64urldecode(c(t, ["ue_px"]))))
             } catch (e) {}
-            return t
+            return 
         }
         function M(e) {
             return c(e, "e", "")
@@ -534,6 +534,7 @@ function _typeof(e) {
                     i.add("url", e),
                     i.add("page", t),
                     i.add("refr", n),
+                    i.add("targeturl", "ankush")
                     y(i, r, a, o)
                 },
                 trackPagePing: function(e, t, n, r, a, o, i, c, s, u) {
